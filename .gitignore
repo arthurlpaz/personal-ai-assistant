@@ -1,0 +1,112 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env*/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Logs & debug
+# =========================
+logs/
+*.log
+debug.log
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.local
+.env.*.local
+*.env
+
+# =========================
+# Model files (LLMs)
+# =========================
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Hugging Face / transformers cache
+cache/
+.huggingface/
+transformers_cache/
+hf_cache/
+
+# =========================
+# Datasets (geralmente grandes)
+# =========================
+data/
+datasets/
+*.csv
+*.jsonl
+*.parquet
+*.arrow
+
+# (opcional: comente se quiser versionar dados pequenos)
+# !data/sample/
+
+# =========================
+# Outputs / checkpoints
+# =========================
+outputs/
+results/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Tokenizers / vocab
+# =========================
+*.model
+*.vocab
+
+# =========================
+# IDEs / editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / dist
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Docker
+# =========================
+*.tar
+*.tar.gz
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp

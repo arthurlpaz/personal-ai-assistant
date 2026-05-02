@@ -1,3 +1,8 @@
+"""
+Session memory: persists conversation history per session_id as JSON files.
+Keeps a sliding window of the last N exchanges to stay within context limits.
+"""
+
 import json
 import os
 from datetime import datetime
